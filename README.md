@@ -10,7 +10,12 @@ devtools::install_github("JervisMurzello/opendatawindsor")
 
 library(opendatawindsor)
 
-## Examples
+## Usage
+
+library(opendatawindsor)
+
+all_data  ### To see the dataset names
+
 ### If only 1 dataset is required, an example code is shown below:
 get_data("AbandonedVehicle_YTD")
 
