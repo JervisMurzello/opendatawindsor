@@ -1,5 +1,5 @@
 ## About
-opendatadwindsor is a package which acts as an R interface for the open data portal of City of Windsor. A package called opendatatoronto is the main motivation for our package and works as an excellent guide as it is developed for a similar purpose which allows users to load the data into R directly without downloading each and every file individually on their systems.
+opendatawindsor is a package which acts as an R interface for the open data portal of City of Windsor. A package called opendatatoronto is the main motivation for our package and works as an excellent guide as it is developed for a similar purpose which allows users to load the data into R directly without downloading each and every file individually on their systems.
 
 ## Installation
 install.packages("devtools")
@@ -14,7 +14,8 @@ library(opendatawindsor)
 
 library(opendatawindsor)
 
-all_data  ### To see the dataset names
+### To see the dataset names
+all_data
 
 ### If only 1 dataset is required, an example code is shown below:
 get_data("AbandonedVehicle_YTD")
