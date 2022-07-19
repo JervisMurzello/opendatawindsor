@@ -3,7 +3,9 @@ opendatadwindsor is a package which acts as an R interface for the open data por
 
 ## Installation
 install.packages("devtools")
+
 library(devtools)
+
 devtools::install_github("JervisMurzello/theopendatawindsor")
 
 library(opendatawindsor)
