@@ -11,7 +11,7 @@ devtools::install_github("JervisMurzello/opendatawindsor")
 
 ## Usage
 
-You can see a list of available datasets by using the command ``` all_data ```. This will show metadata about the package, including the public affair the dataset belongs to, the description of the issue, the attributes(columns) in the particular dataset, how often they are updated and the number of datasets per issue.
+You can see a list of available datasets by using the command ``` all_data ```. This will show metadata about the package, including the public affair the dataset belongs to, the description of the public affair, the attributes(columns) in the particular dataset, how often they are updated and the number of datasets per issue.
 
 ```
 library(opendatawindsor)
