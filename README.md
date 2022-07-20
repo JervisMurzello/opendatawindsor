@@ -22,10 +22,10 @@ Finally, you can download the resource (i.e., the actual data) directly into R u
 ```
 # Only 1 dataset is required
 
-get_data("AbandonedVehicle_YTD")
+get_data("dataset name")
 
 # More than 1 dataset is required
 
-get_data(c("AbandonedVehicle_YTD", "3DayParkingInfraction_YTD"))
+get_data(c("dataset name 1", "dataset name 2", ...))
 
 ```
