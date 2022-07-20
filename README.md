@@ -3,14 +3,10 @@ opendatawindsor is a package which acts as an R interface for the open data port
 
 ## Installation
 
+You can install the development version from Github with:
+
 ```
-install.packages("devtools")
-
-library(devtools)
-
 devtools::install_github("JervisMurzello/opendatawindsor")
-
-library(opendatawindsor)
 ```
 
 ## Usage
@@ -18,12 +14,16 @@ library(opendatawindsor)
 ```
 library(opendatawindsor)
 
-### To see the dataset names
+# To see the dataset names
+
 all_data
 
 ### If only 1 dataset is required, an example code is shown below:
+
 get_data("AbandonedVehicle_YTD")
 
 ### If more than 1 dataset is required, the names of the dataset need to be put in c() vector:
+
 get_data(c("AbandonedVehicle_YTD", "3DayParkingInfraction_YTD"))
+
 ```
