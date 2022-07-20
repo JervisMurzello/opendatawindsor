@@ -11,18 +11,20 @@ devtools::install_github("JervisMurzello/opendatawindsor")
 
 ## Usage
 
+You can see a list of available datasets by using the command ``` all_data ```. This will show metadata about the package, including the public affair the dataset belongs to, the description of the issue, the attributes(columns) in the particular dataset, how often they are updated and the number of datasets per issue.
+
 ```
 library(opendatawindsor)
-
-# To see the dataset names
-
 all_data
+```
+Finally, you can download the resource (i.e., the actual data) directly into R using get_data() with the name of the dataset (mentioned in the first column of the metadata file) as the argument. If more than 1 dataset is required, the names need to be put inside a c() vector.
 
-### If only 1 dataset is required, an example code is shown below:
+```
+# Only 1 dataset is required
 
 get_data("AbandonedVehicle_YTD")
 
-### If more than 1 dataset is required, the names of the dataset need to be put in c() vector:
+# More than 1 dataset is required
 
 get_data(c("AbandonedVehicle_YTD", "3DayParkingInfraction_YTD"))
 
