@@ -3,10 +3,16 @@ opendatawindsor is an R interface to the [City of Windsor open data portal](http
 
 ## Installation
 
+### At first you need to install devtools package if you haven't
+
+```
+#2596be  install.packages("devtools")
+```
+
 You can install the development version from Github with:
 
 ```
-devtools::install_github("JervisMurzello/opendatawindsor")
+#2596be  devtools::install_github("JervisMurzello/opendatawindsor")
 ```
 
 ## Usage
@@ -14,8 +20,8 @@ devtools::install_github("JervisMurzello/opendatawindsor")
 You can see a list of available datasets by using the command ``` all_data ```. This will show metadata about the package, including the public affair the dataset belongs to, the description of the public affair, the attributes(columns) in the particular dataset, how often they are updated and the number of datasets per issue.
 
 ```
-library(opendatawindsor)
-all_data
+#2596be  library(opendatawindsor)
+#2596be  all_data
 ```
 Finally, you can download the resource (i.e., the actual data) directly into R using get_data() with the name of the dataset (mentioned in the first column of the metadata file) as the argument. If more than 1 dataset is required, the names need to be put inside a c() vector.
 
