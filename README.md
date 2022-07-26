@@ -28,7 +28,7 @@ Finally, you can download the resource (i.e., the actual data) directly into R u
 ```
 # Only 1 dataset is required
 
-get_data("dataset name")
+get_data("AlleyMaintenance_2017")
 
 # More than 1 dataset is required
 
