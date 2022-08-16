@@ -3,7 +3,9 @@ opendatawindsor is an R interface to the [City of Windsor open data portal](http
 
 ## Installation
 
-####  If you do not have devtools package, then you can install it using:
+The devtools package is necessary for installing our package.
+
+#### To install this package please use the command shown below:
 
 ```
 install.packages("devtools")
