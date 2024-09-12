@@ -1,6 +1,8 @@
 ## About
 opendatawindsor is an R interface to the [City of Windsor open data portal](https://opendata.citywindsor.ca/). A package called [opendatatoronto](https://github.com/sharlagelfand/opendatatoronto) is the main motivation for our package and works as an excellent guide as it is developed for a similar purpose which allows users to load the data available on the open data portal of City of Toronto into their R environments directly without downloading each and every file individually on their systems.
 
+This package reduces the time required for data preparation by 50-60% and analysts can move on to the next stage of Analysis easily as compared to the conventional way of downloading individual files, combining them and then preparing the data.
+
 ## Installation
 
 The devtools package is necessary for installing our package.
